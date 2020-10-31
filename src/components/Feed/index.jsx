@@ -9,7 +9,7 @@ const Feed = () => {
     <Container>
       <TabOptions>
         <Tab className="active">Tweets</Tab>
-        <Tab>Tweets and answers</Tab>
+        <Tab>Tweets & replies</Tab>
         <Tab>Media</Tab>
         <Tab>Likes</Tab>
       </TabOptions>

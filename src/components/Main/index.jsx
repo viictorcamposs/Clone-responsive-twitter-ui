@@ -1,29 +1,32 @@
 import React from 'react';
 
-import { Container, Header, BackIcon, ProfileInfo } from './styles';
+import ProfilePage from '../ProfilePage';
+
+import * as M from './styles';
 
 const Main = () => {
   return (
-    <Container>
-      <Header>
+    <M.Container>
+      <M.Header>
         <button type>
-          <BackIcon />
+          <M.BackIcon />
         </button>
 
-        <ProfileInfo>
-          <strong>Twitter Clone UI</strong>
+        <M.ProfileInfo>
+          <strong>Victor Campos</strong>
           <span>713 Tweets</span>
-        </ProfileInfo>
-      </Header>
+        </M.ProfileInfo>
+      </M.Header>
+      
+      <ProfilePage />
 
-      {/* <BottomMenu>
-        <HomeIcon />
-        <SearchIcon />
-        <BellIcon />
-        <EmailIcon />
-      </BottomMenu> */}
-      {/* <ProfilePage /> */}
-    </Container>
+      <M.BottomMenu>
+        <M.HomeIcon className="active" />
+        <M.SearchIcon />
+        <M.BellIcon />
+        <M.EmailIcon />
+      </M.BottomMenu>
+    </M.Container>
   );
 };
 

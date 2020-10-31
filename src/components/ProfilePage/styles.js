@@ -4,6 +4,7 @@ import { LocationOn, Cake } from '../../styles/Icons';
 import Button from '../Button';
 
 export const Container = styled.div`
+  margin-top: 63px;
   display: flex;
   flex-direction: column;
 
@@ -35,7 +36,7 @@ export const Avatar = styled.div`
 
   border: 3.75px solid var(--primary);
   border-radius: 50%;
-  background: url('https://instagram.frec7-1.fna.fbcdn.net/v/t51.2885-15/e35/38826841_709377956089664_4852933854702338048_n.jpg?_nc_ht=instagram.frec7-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=-MxmTl-VvL0AX-e_1Aw&tp=18&oh=db77fafe4b68eb1be888720f764df414&oe=5FC67F8D') no-repeat;
+  background: url('https://avatars3.githubusercontent.com/u/65051855?s=460&u=f57885d97aa6c37de188fd3178f5338a94f20627&v=4') no-repeat;
   background-size: cover;
 
   position: absolute;
