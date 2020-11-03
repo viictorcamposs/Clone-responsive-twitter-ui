@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Menubar from '../MenuBar';
+import Sidebar from '../SideBar';
 import Main from '../Main';
 
 import { Container, Wrapper } from './styles';
@@ -8,9 +10,9 @@ const Layout = () => {
   return ( 
     <Container>
       <Wrapper>
-        {/* <Menubar /> */}
+        <Menubar />
         <Main />
-        {/* <Siderbar /> */}
+        <Sidebar />
       </Wrapper>
     </Container>
   );

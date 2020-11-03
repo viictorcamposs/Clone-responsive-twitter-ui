@@ -4,7 +4,6 @@ import { LocationOn, Cake } from '../../styles/Icons';
 import Button from '../Button';
 
 export const Container = styled.div`
-  margin-top: 63px;
   display: flex;
   flex-direction: column;
 

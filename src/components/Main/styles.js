@@ -21,7 +21,7 @@ export const Container = styled.div`
 
 export const Header = styled.div`
   z-index: 2;
-  position: fixed;
+  position: sticky;
   top: 0;
   background: var(--primary);
 
@@ -30,7 +30,7 @@ export const Header = styled.div`
 
   text-align: left;
 
-  width: min(599px, 100%);
+  width: min(601px, 100%);
   padding: 8px 0 9px 13px;
   border-bottom: 1px solid var(--outline);
 
