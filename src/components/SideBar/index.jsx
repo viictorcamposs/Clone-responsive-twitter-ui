@@ -44,7 +44,7 @@ const SideBar = () => {
             ]}
           />
           <List 
-            title="You might like"
+            title="What's happening"
             elements={[
               <News />,
               <News />,
@@ -52,7 +52,7 @@ const SideBar = () => {
             ]}
           />
           <List 
-            title="You might like"
+            title="What's happening"
             elements={[
               <News />,
               <News />,
@@ -60,7 +60,7 @@ const SideBar = () => {
             ]}
           />
           <List 
-            title="You might like"
+            title="What's happening"
             elements={[
               <News />,
               <News />,
