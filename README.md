@@ -18,7 +18,7 @@
 </p>
 
 <br />
-<a href="https://twitter-interface.netlify.app">Ver demo do projeto</a>
+<a href="https://twitter-interface.netlify.app" target="_blank">Ver demo do projeto</a>
 <br />
 <br />
 
